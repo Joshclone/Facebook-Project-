@@ -1,0 +1,349 @@
+body {
+    font-family: Arial;
+    background-color: rgb(219, 219, 253);
+    
+}
+* {
+box-sizing: border-box;
+
+}
+/*#4285f4*/
+
+.form  {
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+   
+    grid-column: 4rem;
+   
+    justify-content: space-between;
+    column-gap: 10px;
+  
+  
+}
+
+
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#facebook {
+    margin-left: 110px;
+    padding-bottom: 2px;
+    padding-left: 13px;
+}
+
+
+#home {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 19px;
+    padding-bottom: 20px;
+}
+
+#photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 9px;
+}
+#photos > span {
+    flex: 1 1 auto;
+    margin: 7px;
+   
+}
+
+
+
+
+#Jo {
+    margin-top: 9px;
+    padding: 9px;
+   color: white;
+
+
+}
+
+
+.first-section{
+   background: rgb(8, 8, 131);
+    height: 50px;
+}
+
+form.example {
+
+    margin-top:3px;
+}
+
+.menu-profile{margin-bottom:46px;
+    width: 40px; 
+  margin-top:4px;
+  padding-top: 3px;}
+
+  .menu-profile img {border-radius: 50%;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+  
+  .menu-profile span{padding-bottom:8px; margin-bottom:4px;}
+
+  .Profile {margin-bottom:46px;
+      width: 40px; 
+    margin-top:4px;
+    padding-top: 3px; 
+}
+
+
+.Profile img{border-radius: 50%;
+     }
+     
+
+     .profile-icon {
+    width: 23px; 
+    margin-top:4px;
+    padding-top: 7px; 
+    }
+
+
+
+.profile-icon img{
+    border-radius: 50%;
+}
+
+.table-data {
+    width: 40px;
+}
+.table-data span{padding-bottom:8px; margin-bottom:4px;}
+
+
+.table-data img { border-radius: 50%;}
+
+
+ .table-data {
+     display: flex;
+     flex-direction:row;
+ }
+
+
+#names{
+  
+    margin-top:6px;
+    margin-left: 10px;
+    padding-top: 6px; ;}
+
+
+ #table-data {
+    display: flex;
+    flex-direction:row;
+   
+}
+
+
+
+
+
+ .Profile   {display: flex;
+     flex-direction:row;}
+    
+
+.menu-profile {display: flex;
+    flex-direction:row;}
+
+
+.icon {
+ display: flex;
+ flex-direction: row;   
+
+}
+
+
+#Joshua{
+    margin-top:8px;
+    margin-left: 10px;
+    padding-top: 7px; 
+}
+
+.rounded{
+    width: 50px; 
+    padding-left: 10px; 
+    padding-top: 7px;
+
+       
+
+}
+
+.rounded img {
+    border-radius: 50%;
+}
+
+.eric img{
+    border-radius: 50%;
+
+
+}
+.eric {
+   direction: flex;
+   flex-direction: row;
+}
+
+#er > span {
+   color: rgb(109, 109, 247);
+}
+
+
+
+.create {
+
+    background-color: rgb(225, 223, 260);
+    margin-top: 10px;
+    border-style: none;
+    border-radius:5px ;
+  
+}
+
+.create_post   {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(229, 229, 233);
+       
+   
+}
+
+
+.third-column {
+      border-left:19px solid rgb(219, 219, 253);
+      background-color:rgb(229, 229, 233);
+      border-top:12px solid rgb(219, 219, 253);
+      border-right:12px solid rgb(219, 219, 253);
+
+    
+}
+
+.add-story img{
+    border-radius: 10px;
+  
+}
+
+#what {
+  
+    margin-top: 25px;
+    margin-left: 2px;
+
+    padding-left: 20px;
+     
+
+}
+
+
+
+
+form.example input[type=text] {
+    padding: 10px;
+    margin-left: 7rem;
+    font-size: 17px;
+    border: 1px solid grey ;   
+    float: left;
+    width: 400px;
+    height: 40px;
+    background-color: white;
+}
+
+form.example button {
+    float: left;
+    width: 50px;
+   height: 40px;
+    padding: 10px;
+    background: whitesmoke;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+
+form.example button:hover{
+    background:#4285f4;
+}
+
+form.example::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+/*Second_Section*/
+
+.body-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid: 2rem;
+    grid-area: auto;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+
+}
+/*image layering*/
+
+.add-story {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 60px;
+}
+.josh-left {
+    position: absolute;
+    bottom: 8px;
+    left: 160px;
+
+}
+.Praise-left {
+    position: absolute;
+    bottom: 8px;
+    left: 280px;
+
+}
+
+.To-left {
+    position: absolute;
+    bottom: 8px;
+    left: 400px;
+
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 60px;
+     border:4px solid #4285f4;
+     border-radius: 22px;   
+}
+
+.tp-left {
+    position: absolute;
+    top: 8px;
+    left:160px;
+     border:4px solid #4285f4;
+     border-radius: 22px;   
+}
+
+.p-left {
+    position: absolute;
+    top: 8px;
+    left:280px;
+     border:4px solid #4285f4;
+     border-radius: 22px;   
+}
+
+
+.png-left {
+    position: absolute;
+    top: 8px;
+    left:400px;
+     border:4px solid #4285f4;
+     border-radius: 22px;   
+}
