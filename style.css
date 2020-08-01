@@ -346,4 +346,18 @@ form.example::after {
     left:400px;
      border:4px solid #4285f4;
      border-radius: 22px;   
+} 
+@media(max-width:960px){
+     .section{
+         height:70vh; width:210vh;
+     }
+   
+     .first-section { width:210vh;
+      
+}
+    .body-grid{ width:210vh;
+
+    }
+
+
 }
